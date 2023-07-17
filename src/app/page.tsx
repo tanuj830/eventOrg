@@ -4,7 +4,7 @@ import Payment from './components/Payment'
 
 export default function Home() {
   return (
-    <main className="bg-[#004E89]">
+    <main className="">
       <Hero/>
       <Payment/>
     </main>
