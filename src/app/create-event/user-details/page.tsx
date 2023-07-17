@@ -6,17 +6,13 @@ const page = () => {
   
   const [userRegistered, setUserRegistered] = useState(false)
 
-  const updateDetails = (e) =>{
-
-    e.preventDefault();
+  const updateDetails = () =>{
 
     // Update details here and change state
     setUserRegistered(!userRegistered)
   }
  
-  const editDetails = (e) =>{
-
-    e.preventDefault();
+  const editDetails = () =>{
 
     // Update details here and change state
     setUserRegistered(!userRegistered)
