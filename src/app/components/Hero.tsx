@@ -4,8 +4,8 @@ const Hero = () => {
   return (
     // <div className=' bg-[url(https://fpdl.in/uploads/20230716144323_[fpdl.in]_psychedelic-paper-shapes-with-copy-space_23-2149378246_large.jpg)] w-[100%] bg-cover bg-no-repeat'>
 
-<div className='h-[90vh] md:px-24 py-10 lg:px-40 sm:px-10 text-white '>
-<div className='flex items-center justify-start'>
+<div className='h-[90vh] md:px-24 py-10 lg:px-40 sm:px-10 text-white bg-[url(https://cdn.thecodehelp.in/m64udmyhucj2zb42uvyf_06640ff501.svg)] bg-no-repeat bg-left-bottom   '>
+<div className='flex items-center justify-start '>
 <div className=' mt-20  lg:mt-0 px-5'>
     <img src="https://fpdl.in/uploads/20230716152140_[fpdl.in]_3d-rendering-hotel-travel-icon_23-2149389111_normal.jpg" className='w-36 rounded-full transition-all shadow-2xl shadow-gray-800' alt="" />
 

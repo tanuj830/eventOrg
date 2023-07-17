@@ -26,7 +26,7 @@ const Payment = () => {
   return (
     <>
     
-   <div className='bg-white p-5 md:p-8 lg:pb-0 lg:p-60 '>
+   <div className='bg-white p-5 md:p-8 lg:pb-0 lg:p-60  bg-[url(https://cdn.thecodehelp.in/bkzxjg9fxeaiuej76vdd_9e7b388222.png)] bg-no-repeat'>
     
     <div className='flex items-center md:flex-row flex-col md:justify-center '>
       <div className='md:w-1/2'><h2 className='md:text-center text-[40px] md:text-[70px] font-extrabold site_color'>Effortless Events</h2></div>
@@ -85,7 +85,7 @@ plans.map(plan=>(
 }
 </div>
    </div>
-   <section className='bg-white lg:py-36 py-20'>
+   <section className='bg-white lg:py-36 py-20 '>
     <h2 className='lg:text-[140px] text-[44px] text-center font-[900]'>STAY UPDATED</h2>
     <div className='hidden  lg:flex justify-center items-center'>
         <p className='pt-4  text-[#004e89]'>Don’t miss out on the latest happenings and event tips. Sign up <br /> for our newsletter and keep living the eventful college life!</p>
