@@ -74,7 +74,7 @@ plans.map(plan=>(
       </p>
         ))
     }
-      <button className="flex items-center mt-auto text-white site_bg_color border-0 py-2 px-4 w-full focus:outline-none hover:bg-[#004E89] rounded">{plan.button}
+      <button className="flex items-center   mt-auto text-white site_bg_color border-0 py-2 px-4  w-full focus:outline-none hover:bg-[#004E89] rounded">{plan.button}
         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
@@ -90,7 +90,7 @@ plans.map(plan=>(
     <div className='hidden  lg:flex justify-center items-center'>
         <p className='pt-4  text-[#004e89]'>Don’t miss out on the latest happenings and event tips. Sign up <br /> for our newsletter and keep living the eventful college life!</p>
     </div>
-    <p className='pt-4  text-[#004e89] lg:hidden  font-medium inline-block text-center'>Don’t miss out on the latest happenings and event tips. Sign up for our newsletter and keep living the eventful college life!</p>
+    <p className='p-4  text-[#004e89] lg:hidden  font-medium inline-block text-center'>Don’t miss out on the latest happenings and event tips. Sign up for our newsletter and keep living the eventful college life!</p>
     <div className='mt-5 md:mt-7 flex justify-center items-center text-black gap-2 md:gap-4'>
     <input type="text" placeholder='name@email.com' className='px-2 md:px-5 py-2 bg-slate-100 text-black rounded-xl outline-none border border-[gainsboro]' />
     <button className='site_bg_color text-white px-2 md:px-4 py-2 rounded-xl'>Subscribe</button>

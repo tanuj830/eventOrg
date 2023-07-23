@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='pt-10  px-24 '>
+    <div className='md:pt-10  md:px-24 h-fit  '>
         <footer className="text-gray-600 body-font">
-        <div className=" px-5 md:px-24 lg:px-36 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className=" px-5 md:px-24 lg:px-36 py-6 md:py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       <div className="lg:w-1/2 md:w-1/2 w-full px-4">
         <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">ABOUT</h2>
@@ -42,11 +42,12 @@ const Footer = () => {
       </div>
     </div>
   </div>
-  <div className=" pb-10">
+  <div className=" pb-6">
     <div className="container mx-auto py-4 px-5 md:px-24 lg:px-36 flex flex-wrap flex-col sm:flex-row ">
-      <p className="text-white text-sm text-center sm:text-left">© 2023 Collegify —
-        <a href="https://twitter.com/7svar" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@by 7svar</a>
-      </p>
+      <div className='flex items-center justify-center'>
+      <p className="text-white text-sm text-center sm:text-left">© 2023 Collegify —</p>
+        <a href="https://twitter.com/7svar" rel="noopener noreferrer" className="text-white ml-1" target="_blank">@by CZAR</a>
+      </div>
       <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start gap-3">
         <a className="text-white hover:scale-[2] transition-all duration-700 cursor-pointer" href='https://facebook.com/7svar'>
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5 " viewBox="0 0 24 24">

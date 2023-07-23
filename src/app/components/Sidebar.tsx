@@ -7,8 +7,8 @@ import Link from 'next/link'
 const Sidebar = () => {
   return (
     <>
-        <div className='hidden md:inline shadow-xl  px-5'>
-        <div className='flex items-center justify-center gap-2 py-2 my-3 border-b'>
+        <div className='hidden lg:inline shadow-xl  px-5'>
+        <div className='flex items-center justify-center gap-2 py-2 my-3 border-b '>
                     <i className='text-black text-4xl'><MdOutlineAdminPanelSettings /></i>
                     <h2 className='text-black'>PROFILE</h2>
                 </div>
@@ -35,7 +35,7 @@ const Sidebar = () => {
         </div>
 
         {/* for mobile */}
-        <div className='inline md:hidden'>
+        <div className='inline lg:hidden'>
         {/* <div className='flex items-center justify-center gap-2 py-2 my-3 border-b'>
                     <i className='text-black text-xl'><MdOutlineAdminPanelSettings /></i>
                     <h2 className='text-black'>ADMIN DASHBOARD</h2>
