@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = () => {
   return (
 <div className=' h-[90vh] md:px-24  lg:px-40 lg:mt-10 xl:p-30 sm:px-10 text-white bg-[url(https://cdn.thecodehelp.in/m64udmyhucj2zb42uvyf_06640ff501.svg)] bg-no-repeat bg-left-bottom   '>
-<div className='flex items-center justify-start '>
-<div className=' mt-20 md:mt-30 lg:mt-0 px-5'>
+<div className='flex items-center justify-center w-full '>
+<div className=' mt-20 md:mt-30 lg:mt-0 px-5 lg:w-[50%] '>
     <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-e0b16.appspot.com/o/ticket.gif?alt=media&token=ea2cf2f6-8ac7-4c36-a7c8-40446c2c6422" className='xl:w-36 md:w-24 w-20 rounded-full transition-all shadow-2xl shadow-gray-800' alt="" />
 
     <h1 className='xl:text-[100px] md:mt-10 lg:mt-0 lg:text-[80px] text-[40px] font-bold '>Collegify.</h1>
@@ -17,6 +17,10 @@ const Hero = () => {
     <input type="text" placeholder='name@email.com' className='px-2 md:px-5 py-2 bg-[#0079d534] text-black rounded-xl outline-none border border-[gainsboro]' />
     <button className=' shadow-2xl border border-[gainsboro]   text-white px-2 md:px-4 py-2 rounded-xl'>SignUp</button>
 </div>
+    </div>
+    <div className='w-[50%] relative lg:inline hidden '>
+      <img className='' src="https://www.zegocloud.com/_nuxt/img/banner.a57f550.webp" alt="" />
+      <img className='absolute bottom-0 object-contain w-[80%]' src="https://www.zegocloud.com/_nuxt/img/video.819141b.webp" alt="" />
     </div>
 </div>
 </div>

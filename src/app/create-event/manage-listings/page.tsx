@@ -12,7 +12,9 @@ const page = () => {
 
   return (
     <div className='bg-white flex flex-col lg:flex-row'>
+      <div className='lg:w-[15%] w-full px-2 shadow-lg'>
       <Sidebar/>
+      </div>
       <div className='w-full '>
        <div className='w-full md:py-3 h-10 lg:h-16 border-b border-[gainsboro] flex  justify-between border-t py-1'>
        <div>
