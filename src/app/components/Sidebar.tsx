@@ -40,29 +40,23 @@ const Sidebar = () => {
                     <i className='text-black text-xl'><MdOutlineAdminPanelSettings /></i>
                     <h2 className='text-black'>ADMIN DASHBOARD</h2>
                 </div> */}
-                <div className='flex justify-around'>
+                <div className='flex justify-start gap-2 md:gap-3 '>
                     <Link className='' href="/create-event/user-details">
-                        <div className='flex text-sm justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black font-light'>
+                        <div className='font-base flex text-xs justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black '>
                         {/* <i className='text-sm'><MdOutlineAdminPanelSettings/></i> */}
                          User Details
                     </div>
                     </Link>
                     <Link className='' href="/create-event/registrations">
-                        <div className='flex text-sm justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black font-light'>
+                        <div className='font-base flex text-xs justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black '>
                         {/* <i className='text-sm'><RiListOrdered/></i> */}
                         Registrations
                     </div>
                     </Link>
                     <Link className='' href="/create-event/manage-listings">
-                        <div className='flex text-sm justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black font-light'>
+                        <div className='font-base flex text-xs justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black '>
                         {/* <i className='text-sm'><FcSalesPerformance/></i> */}
                         Manage Listings
-                    </div>
-                    </Link>
-                    <Link className='' href="/products">
-                        <div className='flex text-sm justify-start  hover:bg-indigo-500 hover:text-white rounded-lg cursor-pointer transition-all duration-300 mt-2 py-3 px-1 text-black font-light'>
-                        {/* <i className='text-sm'><RiProductHuntLine/></i> */}
-                       
                     </div>
                     </Link>
                  

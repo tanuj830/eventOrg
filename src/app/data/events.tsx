@@ -3,6 +3,7 @@
         "_id": "YAQGQB57RDJSCQ5H",
         "category":"Concert",
         "name": "Christiane",
+        "event_name": "Celebrity Concert",
         "date": "2020-06-16",
         "address": {
             "street": "8069 Seal Street",
@@ -18,6 +19,7 @@
         "_id": "QML2UH0Q9G2NZ5H4",
         "category":"Freshers",
         "name": "Myron",
+        "event_name": "Celebrity Concert",
         "date": "2014-05-10",
         "address": {
             "street": "5217 Gorses",
@@ -33,6 +35,7 @@
         "_id": "5CLX4BNM55U9IMBF",
         "category":"Concert",
         "name": "Lakeesha",
+        "event_name": "Celebrity Concert",
         "date": "2017-09-28",
         "address": {
             "street": "4545 Florence Lane",
@@ -48,6 +51,7 @@
         "_id": "1EUX3QN4RBSPU6CM",
         "category":"Concert",
         "name": "Petra",
+        "event_name": "Celebrity Concert",
         "date": "2017-10-03",
         "address": {
             "street": "0960 Weaverham",
@@ -63,6 +67,7 @@
         "_id": "99Q15BB2CXMAOZOM",
         "category":"Birthday",
         "name": "Bettyann",
+        "event_name": "Celebrity Concert",
         "date": "2014-06-22",
         "address": {
             "street": "1696 Radcliffe Road",
@@ -78,6 +83,7 @@
         "_id": "XSAQCQ4YUF8AAXBS",
         "category":"Anniversary",
         "name": "Iraida",
+        "event_name": "Celebrity Concert",
         "date": "2021-11-29",
         "address": {
             "street": "4331 Adam Lane",

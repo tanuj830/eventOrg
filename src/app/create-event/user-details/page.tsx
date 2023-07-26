@@ -20,7 +20,9 @@ const page = () => {
 
   return (
     <div className='flex bg-white flex-col lg:flex-row'>
+      <div className='w-[15%] px-2 shadow-lg'>
       <Sidebar/>
+      </div>
       <div className='w-full'>
           <div className='flex justify-center items-center w-full'>
               <div className='w-full p-10 lg:p-20'>
