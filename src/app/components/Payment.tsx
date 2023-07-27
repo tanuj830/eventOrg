@@ -34,18 +34,18 @@ const Payment = () => {
     </div>
 
     <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 mt-20'>
-        <div>
-          <img className='rounded-3xl' src="https://framerusercontent.com/images/LwEZyNMIoQY9PRxG85u3fhKm8.jpg" alt="" />
+        <div className=''>
+          <img className='rounded-3xl object-cover h-[300px] w-full' src="https://img.freepik.com/free-vector/manager-with-checklist-creating-event-plan-development-event-management-planning-service-how-plan-event-planning-software-concept-pinkish-coral-bluevector-isolated-illustration_335657-1351.jpg?size=626&ext=jpg&ga=GA1.2.1739072392.1687083813&semt=ais" alt="" />
           <h2 className='text-black font-bold text-xl mt-6'>Student Meetups</h2>
           <h3 className='text-gray-600 text-lg mt-2 font-[400]'>Engage with peers and discover  new opportunities at campus  clubs and gatherings.</h3>
         </div>
-        <div>
-          <img className='rounded-3xl' src="https://framerusercontent.com/images/LwEZyNMIoQY9PRxG85u3fhKm8.jpg" alt="" />
+        <div className=''>
+          <img className='rounded-3xl object-cover h-[300px] w-full' src="https://img.freepik.com/free-vector/wedding-planner-concept-illustration_114360-2720.jpg?size=626&ext=jpg&ga=GA1.1.1739072392.1687083813&semt=ais" alt="" />
           <h2 className='text-black font-bold text-xl mt-6'>Talent Shows</h2>
           <h3 className='text-gray-600 text-lg mt-2 font-[400]'>Witness the mesmerizing  abilities of your fellow students  at talent shows.</h3>
         </div>
-        <div>
-          <img className='rounded-3xl' src="https://framerusercontent.com/images/LwEZyNMIoQY9PRxG85u3fhKm8.jpg" alt="" />
+        <div className=''>
+          <img className='rounded-3xl object-cover h-[300px] w-full' src="https://img.freepik.com/free-vector/events-concept-illustration_114360-931.jpg?size=626&ext=jpg&ga=GA1.1.1739072392.1687083813&semt=ais" alt="" />
           <h2 className='text-black font-bold text-xl mt-6'>Live Concerts</h2>
           <h3 className='text-gray-600 text-lg mt-2 font-[400]'>Dance the night away at  electrifying concerts catered to  college students.</h3>
         </div>
