@@ -1,19 +1,71 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import events from '@/app/data/events'
 import { usePathname } from 'next/navigation'
+import Link from 'next/link'
+import { AiOutlineClose } from 'react-icons/ai'
 const event = () => {
 
   const path = usePathname()
 
+  const [showModal, setShowModal] = useState(true)
+
+  const toggleModal = () =>{
+    setShowModal(!showModal)
+  }
+
 
   return (
-    <div className='md:px-24 py-10 lg:px-40 sm:px-10 bg-white'>
+    <div className='relative py-10 lg:px-40  bg-white sm:px-10 md:px-24'>
       {
         events.map(e=>(
-          e._id == path.slice(11) ? 
+          e._id == path.slice(11) ? <>
           <div>
+           {
+   showModal ? <div className={`w-full top-[15%] sm:top-[25%] md:top-[30%] lg:-right-[60%]  px-6   z-10 ${showModal ? "fixed": "sticky"}`} >
+  <div className='sm:scale-125 lg:scale-150  w-full'>
+  <div className='flex items-center justify-center bg-slate-50 p-7 lg:p-6 rounded-3xl shadow-2xl border  lg:w-[20vw] md:w-full w-full'>
+        <div className='w-full'>
+          <div className='flex justify-between items-center mb-4'>
+            <h2 className='text-md font-bold'>Register for {e.event_name}</h2>
+            <button className='font-bold text-xl ' onClick={toggleModal}><AiOutlineClose/></button>
+          </div>
+          <div className='flex flex-col gap-2 w-full text-gray-700 text-sm'>
+            <div className='flex items-center  gap-4 py-2 px-4  w-full'>
+              <span className='w-full'>Total People</span>
+              <input type="number" className='border px-2 w-20 py-1' defaultValue={1} />
+            </div >
+            <div className=' py-2 px-4  w-full'>
+              <div className='flex items-center  gap-4'>
+                <span className='w-full'>Contact Number</span>
+                <input type="text" className='border px-2 w-full py-1 text-[10px]' placeholder="+91- XXX-XXX-XXXX" />
+              </div>
+              <span className='text-[8px] text-slate-600 '>Contact number is for contacting you if necessary regarding your registration </span>
+            </div >
+            <div className=' py-2 px-4  w-full'>
+              <div className='flex items-center  gap-4'>
+                <span className='w-full'>E-mail ID</span>
+                <input type="email" className='border px-2 w-full py-1 text-[10px]' placeholder="abc@xyz.com" />
+              </div>
+              <span className='text-[8px] text-slate-600 '>E-mail ID is for contacting you and update users regarding new events </span>
+            </div >
+            <div className='flex flex-col text-white py-2 px-4  w-full'>
+              <Link href={"/payment-gateway"} className='text-center py-2 site_bg_color rounded-full '>Checkout</Link>
+            </div >
+          </div>
+        </div>
+  </div>
+</div>
+</div>: null
+}
+</div>
+
+
+          <div className={`transition-all duration-500 ${showModal ? "blur-md brightness-90": "blur-0"}`}>
               <section className="text-gray-600 body-font">
+      <div>
+        <h1 className='font-extrabold text-center text-5xl'>{e.event_name}</h1>
+      </div>
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
       <div className="rounded-lg h-64 overflow-hidden">
@@ -28,9 +80,10 @@ const event = () => {
             </svg>
           </div>
           <div className="flex flex-col items-center text-center justify-center">
-            <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">{e.organiser}<small className='text-slate-500'>(organiser name)</small></h2>
+            <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">{e.organiser}</h2>
             <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
-            <p className="text-base">EVENT DATE: {e.date}</p>
+            <p className="text-base">Date of Event {e.date}</p>
+            <button className='site_bg_color mt-4  text-white rounded-full py-3 px-8 font-medium tracking-wider' onClick={toggleModal}>Register</button>
           </div>
         </div>
         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
@@ -41,6 +94,7 @@ const event = () => {
   </div>
 </section>
           </div>
+          </>
           :null
         ))
       }
