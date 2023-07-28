@@ -67,7 +67,7 @@ const event = () => {
           <div className={`transition-all duration-500 ${showModal ? "blur-md brightness-90": "blur-0"}`}>
               <section className="text-gray-600 body-font">
       <div className='flex justify-around items-center'>
-        <h1 className='font-extrabold text-center text-5xl'>{e.event_name}</h1>
+        <h1 className='font-extrabold text-center text-2xl lg:text-5xl'>{e.event_name}</h1>
         <div>
       <RWebShare
         data={{
@@ -77,7 +77,7 @@ const event = () => {
         }}
         onClick={() => console.log("shared successfully!")}
       >
-        <button className='text-2xl hover:scale-110 border site_bg_color text-white shadow-xl p-2 rounded-full transition-all duration-300'><FiShare2/></button>
+        <button className='text-lg lg:text-2xl hover:scale-110 border site_bg_color text-white shadow-xl p-2 rounded-full transition-all duration-300'><FiShare2/></button>
       </RWebShare>
     </div>
       </div>
