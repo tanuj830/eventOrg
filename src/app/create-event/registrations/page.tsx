@@ -10,9 +10,13 @@ import event from '@/app/events/[slug]/page'
 const page = () => {
 
   const [showModal, setShowModal] = useState(false)
-
+  const [cancelling, setCancelling] = useState(false)
+  
   const toggleModal = () =>{
     setShowModal(!showModal)
+  }
+  const handleCancelEvent = () =>{
+    setCancelling(true)
   }
 
   return (<>
@@ -38,7 +42,17 @@ const page = () => {
               <Link href="#">Sort by Time</Link>
             </div >
             <div className='flex flex-col text-red-600 py-2 px-4  w-full'>
-              <Link href={"/cancel-event"}>Cancel Event</Link>
+              <Link onClick={handleCancelEvent} href="#">Cancel Event</Link>
+              {
+                cancelling ? <div className=''>
+                  <h6 className='text-lg font-medium my-2 text-gray-700'>Are you sure you want to cancel ?</h6>
+
+                  <div className='flex gap-2 items-center'>
+                  <button className='text-white bg-green-500 px-4 py-2 rounded-full'>Yes</button>
+                  <button className='text-white bg-red-500 px-4 py-2 rounded-full'>No</button>
+                  </div>
+                </div>:null
+              }
             </div >
           </div>
         </div>
