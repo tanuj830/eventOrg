@@ -12,10 +12,10 @@ const page = () => {
 
   return (
     <div className='bg-white flex flex-col lg:flex-row'>
-      <div className='lg:w-[15%] w-full px-2 shadow-lg'>
+      <div className='lg:w-[15%] w-full px-2 '>
       <Sidebar/>
       </div>
-      <div className='w-full '>
+      <div className='w-full mt-3 lg:mt-0'>
        <div className='w-full md:py-3 h-10 lg:h-16 border-b border-[gainsboro] flex  justify-between border-t py-1'>
        <div>
           <h1 className=' text-xl lg:text-2xl font-bold md:pl-3 pl-1'>Listings</h1>
@@ -55,7 +55,7 @@ const page = () => {
   }
 
   <div className='flex justify-center items-center h-[100vh]'>
-      <p className='text-slate-600 text-sm'>Nothing There for Now But You Can Create And Manage Your Listings...!</p>
+      <p className='text-slate-600 text-sm px-3'>Nothing There for Now But You Can Create And Manage Your Listings...!</p>
   </div>
   </div>
     </div>

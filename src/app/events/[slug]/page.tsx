@@ -32,25 +32,25 @@ const event = () => {
           </div>
           <div className='flex flex-col gap-2 w-full text-gray-700 text-sm'>
             <div className='flex items-center  gap-4 py-2 px-4  w-full'>
-              <span className='w-full'>Total People</span>
+              <span className='w-full text-[13px]'>Total People</span>
               <input type="number" className='border px-2 w-20 py-1' defaultValue={1} />
             </div >
             <div className=' py-2 px-4  w-full'>
               <div className='flex items-center  gap-4'>
-                <span className='w-full'>Contact Number</span>
+                <span className='w-full text-[13px]'>Contact Number</span>
                 <input type="text" className='border px-2 w-full py-1 text-[10px]' placeholder="+91- XXX-XXX-XXXX" />
               </div>
               <span className='text-[8px] text-slate-600 '>Contact number is for contacting you if necessary regarding your registration </span>
             </div >
             <div className=' py-2 px-4  w-full'>
               <div className='flex items-center  gap-4'>
-                <span className='w-full'>E-mail ID</span>
+                <span className='w-full text-[13px]'>E-mail ID</span>
                 <input type="email" className='border px-2 w-full py-1 text-[10px]' placeholder="abc@xyz.com" />
               </div>
               <span className='text-[8px] text-slate-600 '>E-mail ID is for contacting you and update users regarding new events </span>
             </div >
             <div className='flex flex-col text-white py-2 px-4  w-full'>
-              <Link href={"/payment-gateway"} className='text-center py-2 site_bg_color rounded-full '>Checkout</Link>
+              <Link href={"/events/payment-gateway/" + path.slice(11)} className='text-center py-2 site_bg_color rounded-full '>Checkout</Link>
             </div >
           </div>
         </div>
