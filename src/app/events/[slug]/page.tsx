@@ -72,7 +72,7 @@ const event = () => {
       <RWebShare
         data={{
           text: "Collegify: best for organizing & managing events.",
-          url: `https://collegify.vercel.app/events/${path.slice(11)}`,
+          url: `https://collegify.vercel.app/events/%${path.slice(11)}`,
           title: "Collegify",
         }}
         onClick={() => console.log("shared successfully!")}
