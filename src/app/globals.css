@@ -8,5 +8,6 @@
 }
 .site_bg_color
 {
-  @apply bg-gradient-to-tr from-blue-600 to-indigo-600;
+  /* @apply bg-gradient-to-tr from-blue-600 to-indigo-600; */
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
 }
