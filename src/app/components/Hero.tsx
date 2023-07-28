@@ -16,7 +16,7 @@ const Hero = () => {
 </p>
 <div className='mt-8 md:mt-10 flex justify-start items-center text-black gap-1 md:gap-4'>
 <input type="text" placeholder='name@email.com' className='px-2 md:px-5 py-2 bg-[#0079d534] text-black rounded-xl outline-none border border-[gainsboro]' />
-<button className=' shadow-2xl border border-[gainsboro]   text-white px-2 md:px-4 py-2 rounded-xl'>SignUp</button>
+<button className=' shadow-2xl border border-[gainsboro]   text-white px-2 md:px-4 py-2 rounded-xl'>Signp</button>
 </div>
     </div>
     </div>
