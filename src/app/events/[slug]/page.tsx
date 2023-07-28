@@ -4,11 +4,14 @@ import events from '@/app/data/events'
 import { usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { AiOutlineClose } from 'react-icons/ai'
+import { RWebShare } from "react-web-share";
+import {FiShare2 } from 'react-icons/fi'
+
 const event = () => {
 
   const path = usePathname()
 
-  const [showModal, setShowModal] = useState(true)
+  const [showModal, setShowModal] = useState(false)
 
   const toggleModal = () =>{
     setShowModal(!showModal)
@@ -63,8 +66,20 @@ const event = () => {
 
           <div className={`transition-all duration-500 ${showModal ? "blur-md brightness-90": "blur-0"}`}>
               <section className="text-gray-600 body-font">
-      <div>
+      <div className='flex justify-around items-center'>
         <h1 className='font-extrabold text-center text-5xl'>{e.event_name}</h1>
+        <div>
+      <RWebShare
+        data={{
+          text: "Like humans, flamingos make friends for life",
+          url: "https://on.natgeo.com/2zHaNup",
+          title: "Flamingos",
+        }}
+        onClick={() => console.log("shared successfully!")}
+      >
+        <button className='text-2xl hover:scale-110 border site_bg_color text-white shadow-xl p-2 rounded-full transition-all duration-300'><FiShare2/></button>
+      </RWebShare>
+    </div>
       </div>
   <div className="container px-5 py-24 mx-auto flex flex-col">
     <div className="lg:w-4/6 mx-auto">
