@@ -14,6 +14,7 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg   ",
         "description": "carrying rfc robert hunt speaker creating firewire madagascar again subsidiaries view internship excerpt mixed policies ld marks glad combine tube"
+        ,"event_fees":599
     },
     {
         "_id": "QML2UH0Q9G2NZ5H4",
@@ -30,6 +31,7 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg   ",
         "description": "mobility determine employer eyed deemed usb faces pair securities homework harder rocket rehabilitation mime mi scale gotten launched joyce replacement"
+        ,"event_fees":599
     },
     {
         "_id": "5CLX4BNM55U9IMBF",
@@ -46,7 +48,8 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg",
            "description": "deborah computer msgid levels touch blah ru places cia vocal poison attractive administered wildlife then measures exclusively parcel everywhere fa"
-    },
+        ,"event_fees":599
+        },
     {
         "_id": "1EUX3QN4RBSPU6CM",
         "category":"Concert",
@@ -62,6 +65,7 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg   ",
         "description": "eggs disturbed surface permissions williams tu hats amendments editorial runs lenders reggae dental linking tab expectations deadline staying community pizza"
+        ,"event_fees":599
     },
     {
         "_id": "99Q15BB2CXMAOZOM",
@@ -78,6 +82,7 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg   ",
         "description": "rated titans jeans worst findarticles patches him frequencies ongoing arrangements duplicate craft suggest division harold fascinating journalism socks resolve panic"
+        ,"event_fees":599
     },
     {
         "_id": "XSAQCQ4YUF8AAXBS",
@@ -94,6 +99,7 @@
         "organiser_no": "{{phone}}",
         "img": "https://cdn.pixabay.com/photo/2016/11/23/15/48/audience-1853662_640.jpg ",
           "description": "craft eating industrial comment opportunity flesh isle devel not laser columns hughes ordinance suspension besides tribunal pts saint ship screening"
-    }
+        ,"event_fees":599
+        }
 ]
 export default events

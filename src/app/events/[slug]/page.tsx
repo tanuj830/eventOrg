@@ -105,6 +105,8 @@ const event = () => {
           <p className="leading-relaxed text-lg mb-4">{e.description}{e.description}{e.description}.</p>
         </div>
       </div>
+    {/* <a href={e.map_link}>Find location on map</a> */}
+    <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map" scrolling="no" src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"  />
     </div>
   </div>
 </section>

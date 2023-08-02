@@ -25,7 +25,7 @@ const mobileNav = () => {
             "icon": <MdPermContactCalendar/>
         },
         {
-            "links":"/",
+            "links":"/signin",
             "name": "sign-up",
             "icon": <RiLoginCircleFill/>
         },

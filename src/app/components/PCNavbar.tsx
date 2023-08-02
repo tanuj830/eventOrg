@@ -12,11 +12,11 @@ const Navbar = () => {
       <Link href="/" className=" hover:text-white lg:text-sm xl:text-xl">Home</Link>
       <Link href="/events" className=" hover:text-white lg:text-sm xl:text-xl">Events</Link>
       <Link href="/create-event/user-details" className=" hover:text-white  lg:text-sm xl:text-xl">Profile</Link>
-    <button className="hidden md:inline-flex items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-slate-200 rounded text-black hover:text-gray-700 text-base mt-4 md:mt-0">Sign-in
+    <Link  href="/signin" className="hidden md:inline-flex items-center bg-white border-0 py-1 px-3 focus:outline-none hover:bg-slate-200 rounded text-black hover:text-gray-700 text-base mt-4 md:mt-0">Sign-in
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
-    </button>
+    </Link>
     </nav>
   </div>
 </header>
