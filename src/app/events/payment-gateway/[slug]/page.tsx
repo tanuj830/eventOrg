@@ -7,7 +7,7 @@ const [count, setCount] = useState(1)
 const [grandTotal, setGrandTotal] = useState(0)
     const path = usePathname()
 // console.log(path.slice(24))
-const calculate = (price)=>{
+const calculate = (price:any)=>{
     setGrandTotal(price*count)
 }
 const incCount = ()=>{
