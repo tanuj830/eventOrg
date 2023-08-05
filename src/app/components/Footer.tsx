@@ -55,9 +55,9 @@ const Footer = () => {
                 </div>
             </div>
             {
-              login ? <button className='bg-[#00DA92] px-8 py-3 my-10 rounded-full  text-black text-sm '>Sign-out</button>: <button className='bg-[#00DA92] px-8 py-3 my-10 rounded-full  text-black text-sm '>Sign-in</button>
+              // login ? <button className='bg-[#00DA92] px-8 py-3 my-10 rounded-full  text-black text-sm '>Sign-out</button>: <button className='bg-[#00DA92] px-8 py-3 my-10 rounded-full  text-black text-sm '>Sign-in</button>
             }
-            <div className='my-10'>
+            <div className='my-16'>
                 <div className='flex justify-between items-center'>
                     <h2 className='text-slate-200 tracking-[1px] text-sm font-medium'>© 2023 Collegify. ALL RIGHTS RESERVED.</h2>
                     <h2 className='text-slate-200 tracking-[1px] text-sm font-medium'>Developer by: CZAR Services</h2>
