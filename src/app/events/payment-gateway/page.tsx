@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>nothing to show</div>
+    <div className='text-gray-200 '>nothing to show</div>
   )
 }
 
